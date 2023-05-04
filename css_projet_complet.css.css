@@ -12,10 +12,10 @@
     overflow: hidden;
 }
 /* premier image logo */
-   img{
-    width: 50%;
-    height: 16%;
-    position: relative;
+   .logo_doc img{
+    width: 290px;
+    height: 50px;
+   
     
 }
       
@@ -42,7 +42,7 @@
   li a {
     display: block;
     color: black;
-    text-align: ;
+    text-align:  ;
     padding: 14px 16px;
     text-decoration: none;
   }
@@ -55,7 +55,7 @@
     position: relative;
     left:%;
     background-color:  ;
-    width: %;
+    width: 100%;
     background-color: ;
     font-family: roboto;
   }
@@ -64,7 +64,8 @@
     background-image: url();
     margin-left: 15px;
     color:gray;
-    HEIGHT:60%;
+width: 100%;
+    HEIGHT:;
    font-family: sans-serif;
   }
     /* unvisited link */
@@ -202,8 +203,8 @@ background-color: black;
 }
 /*stylisation des icones */
 #main img{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     margin-left: 30px;
     margin-top:40px ;
     text-align: left;
@@ -211,10 +212,48 @@ background-color: black;
 }
 
 /*tailles du premier paragraphe*/
-#para{
+#paraleft{
     font-size: 38px;
     text-align: left;
+    color: #20B2AA;
 }
+
+/*stylisation des logo */
+#section3logos{
+    width: 50%;
+    height: 30%;
+    display: flex;
+align-content: space-between;
+flex-wrap:  wrap;
+flex-direction: row;
+row-gap: 30px;
+column-gap: 20px;
+}
+
+/*section 3 */
+
+.section3 {
+width: 80%;
+height: ;
+margin-top: 20px;
+color: ;
+display: flex;
+flex-direction: row;
+text-align: right;
+margin: 60px;
+padding-left: 100px;
+padding-right: px;
+}
+
+
+#section3logos img{
+flex-direction: row-reverse;
+width: 70px;
+height: 30px;
+}
+
+
+
 /*select1*/
 #select1{
 text-align: left;
@@ -274,32 +313,24 @@ margin-bottom: 5px;
 }
 
 
-/*stylisation des logo */
-#section3logos{
-    width: 150px;
-    height: 150px;
 
-}
 
-/*section 3 */
 
-.section3 {
-width: 60%;
-margin-top: 20px;
-color: ;
-display: flex;
-flex-direction: row;
-text-align: right;
-margin-bottom: 60px;
-}
 
-#ssection3logos{
-display:grid;
 
-}
-#section3 img{
-flex-direction: row-reverse;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*4 section */
 .box{
